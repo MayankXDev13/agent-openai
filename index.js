@@ -19,6 +19,7 @@ const getWeatherInfoByCityTool = tool({
   },
 });
 
+
 const customerSupportAgent = new Agent({
   name: "Customer Support Agent",
   model: 'gpt-5-nano-2025-08-07',
